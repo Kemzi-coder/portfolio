@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="container">
+      <div class="header__inner">
+         <div class="logo header__logo">
+            <img class="logo__img" src="images/logo.svg" alt="logo">
+         </div>
+
+         <button class="header__burger">
+            <svg class="icon iconRotate" viewBox="0 0 100 100" width="80">
+               <path
+                       class="line top"
+                       d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+               <path
+                       class="line middle"
+                       d="m 70,50 h -40" />
+               <path
+                       class="line bottom"
+                       d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+         </button>
+
+         <div class="header__block">
+            <nav class="menu header__menu">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a class="menu__link" data-type="menu-link" href="#skills">
+                        Мои навыки
+                     </a>
+                  </li>
+   
+                  <li class="menu__item">
+                     <a class="menu__link" data-type="menu-link" href="#projects">
+                        Мои проекты
+                     </a>
+                  </li>
+
+                  <li class="menu__item">
+                     <a class="menu__link" data-type="menu-link" href="#benefits">
+                        Преимущества
+                     </a>
+                  </li>
+
+                  <li class="menu__item">
+                     <a class="menu__link" data-type="menu-link" href="#contacts">
+                        Связатся со мной
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+   
+            <div class="social header__social">
+               <div class="social__inner">
+                  <a class="social__link" href="https://t.me/kemziCode" target="__blank">
+                     Telegram
+                  </a>
+                  <a class="social__link" href="https://www.instagram.com/max_programist/" target="__blank">
+                     Instagram
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+			<main class="main">
+				<section id="intro" class="intro">
+					<div class="container">
+						<div class="intro__inner">
+							<div class="intro__content">
+								<h1 class="title-big intro__title">
+									Привет, меня зовут Макс Кириченко!
+								</h1>
+								<p class="intro__subtitle">
+									Я занимаюсь front-end разработкой на протяжении 3 лет и открыт к сотрудничеству с вами.
+								</p>
+								<div class="intro__btns">
+									<a class="btn btn--transparent intro__btn" href="https://github.com/Kemzi-coder" target="__blank">
+										GitHub
+									</a>
+									<a class="btn intro__btn" href="#skills">
+										Узнать больше
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="btn-down">
+							<p class="btn-down__text">
+								Листай ниже
+							</p>
+							<a class="btn-down__icon" href="#skills"></a>
+						</div>
+					</div>
+				</section>
+
+				<section id="skills" class="skills section">
+					<div class="circle circle--1 skills__circle"></div>
+					<div class="circle circle--2 skills__circle"></div>
+					<div class="circle circle--3 skills__circle"></div>
+					<div class="circle circle--4 skills__circle"></div>
+					<div class="container">
+						<h3 class="title skills__title">Что я умею, какие навыки?</h3>
+
+						<div class="skills__block">
+							<div class="skills__block-header">
+								<p class="skills__text">Название навыка</p>
+								<p class="skills__text">Уровень знания</p>
+							</div>
+
+							<div class="skills__block-content">
+								<ul class="skills__list">
+									<li class="skill skills__item">
+										<div class="skill__inner">
+											<p class="skill__name">HTML</p>
+											<p class="skill__level" data-percent="99"></p>
+										</div>
+										<div class="skill__progressbar"></div>
+									</li>
+
+									<li class="skill skills__item">
+										<div class="skill__inner">
+											<p class="skill__name">CSS (SCSS, LESS)</p>
+											<p class="skill__level" data-percent="95"></p>
+										</div>
+										<div class="skill__progressbar"></div>
+									</li>
+
+									<li class="skill skills__item">
+										<div class="skill__inner">
+											<p class="skill__name">JavaScript</p>
+											<p class="skill__level" data-percent="75"></p>
+										</div>
+										<div class="skill__progressbar"></div>
+									</li>
+
+									<li class="skill skills__item">
+										<div class="skill__inner">
+											<p class="skill__name">Webpack, gulp</p>
+											<p class="skill__level" data-percent="80"></p>
+										</div>
+										<div class="skill__progressbar"></div>
+									</li>
+
+									<li class="skill skills__item">
+										<div class="skill__inner">
+											<p class="skill__name">Git, Github</p>
+											<p class="skill__level" data-percent="90"></p>
+										</div>
+										<div class="skill__progressbar"></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="projects" class="projects section">
+					<div class="circle circle--5"></div>
+					<div class="circle circle--6"></div>
+					<div class="container">
+						<h3 class="title projects__title">Список моих работ</h3>
+
+						<div class="projects-filter">
+							<div class="projects-filter__btns">
+								<div class="projects-filter__btn-highliter"></div>
+								<button class="projects-filter__btn active" data-filter="JS">JavaScript</button>
+								<button class="projects-filter__btn" data-filter="Вёрстка">Вёрстка</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="benefits" class="benefits section">
+					<div class="container">
+						<h2 class="title-big benefits__title">Почему стоит выбрать именно меня?</h2>
+						<p class="subtitle benefits__subtitle">Заполни короткую форму и отправь ее мне, я свяжусь с тобой в ближайшее время!</p>
+						<div class="benefits__items">
+							<div class="benefit">
+								<div class="benefit__body">
+									<img class="benefit__icon" src="images/benefits-speed.svg" alt="benefit icon" />
+									<h4 class="benefit__title">Скорость работы</h4>
+									<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
+								</div>
+							</div>
+
+							<div class="benefit">
+								<div class="benefit__body">
+									<img class="benefit__icon" src="images/benefits-tech.svg" alt="benefit icon" />
+									<h4 class="benefit__title">Лучшие технологии</h4>
+									<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
+								</div>
+							</div>
+
+							<div class="benefit">
+								<div class="benefit__body">
+									<img class="benefit__icon" src="images/benefits-optimization.svg" alt="benefit icon" />
+									<h4 class="benefit__title">Оптимизация кода</h4>
+									<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
+								</div>
+							</div>
+						</div>
+						<div class="benefits-slider swiper-container">
+							<div class="benefits-slider__wrapper swiper-wrapper">
+								<div class="benefit swiper-slide">
+									<div class="benefit__body">
+										<img class="benefit__icon" src="images/benefits-speed.svg" alt="benefit icon" />
+										<h4 class="benefit__title">Скорость работы</h4>
+										<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
+									</div>
+								</div>
+
+								<div class="benefit swiper-slide">
+									<div class="benefit__body">
+										<img class="benefit__icon" src="images/benefits-tech.svg" alt="benefit icon" />
+										<h4 class="benefit__title">Лучшие технологии</h4>
+										<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
+									</div>
+								</div>
+
+								<div class="benefit swiper-slide">
+									<div class="benefit__body">
+										<img class="benefit__icon" src="images/benefits-optimization.svg" alt="benefit icon" />
+										<h4 class="benefit__title">Оптимизация кода</h4>
+										<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="contacts" class="contacts section">
+					<div class="circle circle--7 skills__circle"></div>
+					<div class="container">
+						<h2 class="title-big contacts__title">Хочешь сотрудничать, либо остались вопросы?</h2>
+						<p class="subtitle contacts__subtitle">Заполни короткую форму и отправь ее мне, я свяжусь с тобой в ближайшее время!</p>
+
+						<form class="contacts__form">
+							<input class="contacts__input" type="text" placeholder="Твое имя и фамилия" />
+							<input class="contacts__input" type="email" placeholder="Твоя почта" />
+							<textarea class="contacts__textarea" placeholder="Предложение либо вопрос"></textarea>
+
+							<label class="contacts__label">
+								<input class="contacts__checkbox" type="checkbox" />
+								<span class="contacts__checkbox-span"></span>
+								<p>
+									Я соглашаюсь на обработку моих
+									<span class="highliter">Персональных Данных</span>
+								</p>
+							</label>
+
+							<div class="contacts__btns">
+								<button class="btn contacts__btn" type="submit">Отправить заявку</button>
+								<a class="btn btn--transparent contacts__btn" href="#intro"> Вернуться в начало </a>
+							</div>
+						</form>
+					</div>
+				</section>
+			</main>
+		</div>
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
