@@ -12,85 +12,92 @@
 		<div class="wrapper">
 			<header class="header">
 	<div class="container">
-      <div class="header__inner">
-         <div class="logo header__logo">
-            <img class="logo__img" src="images/logo.svg" alt="logo">
-         </div>
+		<div class="header__inner">
+			<div class="logo header__logo">
+				<img class="logo__img" src="images/logo.svg" alt="logo">
+			</div>
 
-         <button class="header__burger">
-            <svg class="icon iconRotate" viewBox="0 0 100 100" width="80">
-               <path
-                       class="line top"
-                       d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
-               <path
-                       class="line middle"
-                       d="m 70,50 h -40" />
-               <path
-                       class="line bottom"
-                       d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
-            </svg>
-         </button>
+			<button class="header__burger">
+				<svg class="icon iconRotate" viewBox="0 0 100 100" width="80">
+					<path
+						class="line top"
+						d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+					<path
+						class="line middle"
+						d="m 70,50 h -40" />
+					<path
+						class="line bottom"
+						d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+				</svg>
+			</button>
 
-         <div class="header__panel">
-            <nav class="menu header__menu">
-               <ul class="menu__list">
-                  <li class="menu__item">
-                     <a class="menu__link" data-type="menu-link" href="#skills">
-                        Мои навыки
-                     </a>
-                  </li>
-   
-                  <li class="menu__item">
-                     <a class="menu__link" data-type="menu-link" href="#projects">
-                        Мои проекты
-                     </a>
-                  </li>
+			<div class="header__panel">
+				<nav class="menu header__menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" data-type="menu-link" data-enLang="My Skills" href="#skills">
+								Мои навыки
+							</a>
+						</li>
 
-                  <li class="menu__item">
-                     <a class="menu__link" data-type="menu-link" href="#benefits">
-                        Преимущества
-                     </a>
-                  </li>
+						<li class="menu__item">
+							<a class="menu__link" data-type="menu-link" data-enLang="My Projects" href="#projects">
+								Мои проекты
+							</a>
+						</li>
 
-                  <li class="menu__item">
-                     <a class="menu__link" data-type="menu-link" href="#contacts">
-                        Связатся со мной
-                     </a>
-                  </li>
-               </ul>
-            </nav>
-   
-            <div class="social header__social">
-               <div class="social__inner">
-                  <a class="social__link" href="https://t.me/kemziCode" target="_blank">
-                     Telegram
-                  </a>
-                  <a class="social__link" href="https://www.instagram.com/max_programist/" target="_blank">
-                     Instagram
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+						<li class="menu__item">
+							<a class="menu__link" data-type="menu-link" data-enLang="My Benefits" href="#benefits">
+								Преимущества
+							</a>
+						</li>
+
+						<li class="menu__item">
+							<a class="menu__link" data-type="menu-link" data-enLang="Contact me" href="#contacts">
+								Связатся со мной
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="social header__social">
+					<div class="social__inner">
+						<a class="social__link" href="https://t.me/kemziCode" target="_blank">
+							Telegram
+						</a>
+						<a class="social__link" href="https://www.instagram.com/max_programist/" target="_blank">
+							Instagram
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 
 			<main class="main">
 				<section id="intro" class="intro">
+
 					<div class="container">
+						<div class="intro__lang-btns">
+							<button class="intro__lang-btn" data-type="lang-btn">ru</button>
+							<button class="intro__lang-btn" data-type="lang-btn">en</button>
+						</div>
+
 						<div class="intro__inner">
 							<div class="intro__content">
 								<h1 class="title-big intro__title">
-									Привет, меня зовут Макс Кириченко!
+									<span data-enLang="Hello, my name is">Привет, меня зовут</span>
+									<span class="intro__title-span" data-enLang="Max Kemzi">Максим Kemzi</span>
 								</h1>
-								<p class="subtitle intro__subtitle">
+								<p class="subtitle intro__subtitle" data-enLang="I have been doing front-end development for 3 years and am open to working with you.">
 									Я занимаюсь front-end разработкой на протяжении 3 лет и открыт к сотрудничеству с вами.
 								</p>
 								<div class="intro__btns">
-									<a class="btn btn--transparent intro__btn" href="https://github.com/Kemzi-coder" target="_blank">
+									<a class="btn btn--transparent intro__btn animate__animated animate__fadeInLeft animate__delay-2s" href="https://github.com/Kemzi-coder" target="_blank">
 										GitHub
 									</a>
-									<a class="btn intro__btn" href="#skills">
+									<a class="btn intro__btn animate__animated animate__fadeInRight animate__delay-3s" data-enLang="Find out more" href="#skills">
 										Узнать больше
 									</a>
 								</div>
@@ -98,7 +105,7 @@
 						</div>
 
 						<div class="btn-down">
-							<p class="btn-down__text">
+							<p class="btn-down__text" data-enLang="Scroll down">
 								Листай ниже
 							</p>
 							<a class="btn-down__icon" href="#skills"></a>
@@ -107,77 +114,45 @@
 				</section>
 
 				<section id="skills" class="skills section">
-					<div class="circle circle--1 skills__circle"></div>
-					<div class="circle circle--2 skills__circle"></div>
-					<div class="circle circle--3 skills__circle"></div>
-					<div class="circle circle--4 skills__circle"></div>
+					<div class="circle skills__circle--1"></div>
+					<div class="circle skills__circle--2"></div>
+					<div class="circle skills__circle--3"></div>
+					<div class="circle skills__circle--4"></div>
 					<div class="container">
-						<h3 class="title skills__title">Что я умею, какие навыки?</h3>
+						<div class="skills__body body">
+							<div class="skills__content content">
+								<h3 class="title skills__title wow animate__animated animate__fadeInBottomLeft" data-enLang="My skills">Мои навыки</h3>
 
-						<div class="skills__block">
-							<div class="skills__block-header">
-								<p class="skills__text">Название навыка</p>
-								<p class="skills__text">Уровень знания</p>
-							</div>
+								<div class="skills__block">
+									<div class="skills__block-header">
+										<p class="skills__text" data-enLang="Name of skill">Название навыка</p>
+										<p class="skills__text" data-enLang="Level of knowledge">Уровень знания</p>
+									</div>
 
-							<div class="skills__block-content">
-								<ul class="skills__list">
-									<li class="skill skills__item">
-										<div class="skill__inner">
-											<p class="skill__name">HTML</p>
-											<p class="skill__level" data-percent="99"></p>
-										</div>
-										<div class="skill__progressbar"></div>
-									</li>
+									<div class="skills__block-content">
+										<ul class="skills__list">
 
-									<li class="skill skills__item">
-										<div class="skill__inner">
-											<p class="skill__name">CSS (SCSS, LESS)</p>
-											<p class="skill__level" data-percent="95"></p>
-										</div>
-										<div class="skill__progressbar"></div>
-									</li>
-
-									<li class="skill skills__item">
-										<div class="skill__inner">
-											<p class="skill__name">JavaScript</p>
-											<p class="skill__level" data-percent="75"></p>
-										</div>
-										<div class="skill__progressbar"></div>
-									</li>
-
-									<li class="skill skills__item">
-										<div class="skill__inner">
-											<p class="skill__name">Webpack, gulp</p>
-											<p class="skill__level" data-percent="80"></p>
-										</div>
-										<div class="skill__progressbar"></div>
-									</li>
-
-									<li class="skill skills__item">
-										<div class="skill__inner">
-											<p class="skill__name">Git, Github</p>
-											<p class="skill__level" data-percent="90"></p>
-										</div>
-										<div class="skill__progressbar"></div>
-									</li>
-								</ul>
+										</ul>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 
 				<section id="projects" class="projects section">
-					<div class="circle circle--5"></div>
-					<div class="circle circle--6"></div>
 					<div class="container">
-						<h3 class="title projects__title">Список моих работ</h3>
+						<div class="projects__body body">
+							<div class="projects__content content">
+								<h3 class="title projects__title wow animate__animated animate__fadeInTopRight" data-enLang="My projects">Мои работы</h3>
 
-						<div class="projects-filter">
-							<div class="projects-filter__btns">
-								<div class="projects-filter__btn-highliter"></div>
-								<button class="projects-filter__btn active" data-filter="JS">JavaScript</button>
-								<button class="projects-filter__btn" data-filter="Вёрстка">Вёрстка</button>
+								<div class="projects-filter">
+									<div class="projects-filter__btns">
+										<div class="projects-filter__btn-highlighter"></div>
+										<button class="projects-filter__btn active" data-filter="JS">JavaScript</button>
+										<button class="projects-filter__btn" data-filter="Вёрстка" data-enLang="Websites">Верстка</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -185,57 +160,11 @@
 
 				<section id="benefits" class="benefits section">
 					<div class="container">
-						<h2 class="title-big benefits__title">Почему стоит выбрать именно меня?</h2>
-						<p class="subtitle benefits__subtitle">Заполни короткую форму и отправь ее мне, я свяжусь с тобой в ближайшее время!</p>
-						<div class="benefits__items">
-							<div class="benefit">
-								<div class="benefit__body">
-									<img class="benefit__icon" src="images/benefits-speed.svg" alt="benefit icon" />
-									<h4 class="benefit__title">Скорость работы</h4>
-									<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
-								</div>
-							</div>
+						<div class="benefits__body body">
+							<div class="benefits__content content">
+								<h3 class="title wow animate__animated animate__fadeInTopLeft benefits__title" data-enLang="Why choose me?">Почему я?</h3>
+								<div class="benefits__wrapper">
 
-							<div class="benefit">
-								<div class="benefit__body">
-									<img class="benefit__icon" src="images/benefits-tech.svg" alt="benefit icon" />
-									<h4 class="benefit__title">Лучшие технологии</h4>
-									<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
-								</div>
-							</div>
-
-							<div class="benefit">
-								<div class="benefit__body">
-									<img class="benefit__icon" src="images/benefits-optimization.svg" alt="benefit icon" />
-									<h4 class="benefit__title">Оптимизация кода</h4>
-									<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
-								</div>
-							</div>
-						</div>
-						<div class="benefits-slider swiper-container">
-							<div class="benefits-slider__wrapper swiper-wrapper">
-								<div class="benefit swiper-slide">
-									<div class="benefit__body">
-										<img class="benefit__icon" src="images/benefits-speed.svg" alt="benefit icon" />
-										<h4 class="benefit__title">Скорость работы</h4>
-										<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
-									</div>
-								</div>
-
-								<div class="benefit swiper-slide">
-									<div class="benefit__body">
-										<img class="benefit__icon" src="images/benefits-tech.svg" alt="benefit icon" />
-										<h4 class="benefit__title">Лучшие технологии</h4>
-										<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
-									</div>
-								</div>
-
-								<div class="benefit swiper-slide">
-									<div class="benefit__body">
-										<img class="benefit__icon" src="images/benefits-optimization.svg" alt="benefit icon" />
-										<h4 class="benefit__title">Оптимизация кода</h4>
-										<p class="benefit__text">Ответственно отношусь к заказам и поставленным дедлайнам</p>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -243,30 +172,26 @@
 				</section>
 
 				<section id="contacts" class="contacts section">
-					<div class="circle circle--7 skills__circle"></div>
+					<div class="circle contacts__circle"></div>
 					<div class="container">
-						<h2 class="title-big contacts__title">Хочешь сотрудничать, либо остались вопросы?</h2>
-						<p class="subtitle contacts__subtitle">Заполни короткую форму и отправь ее мне, я свяжусь с тобой в ближайшее время!</p>
+						<div class="contacts__body body">
+							<div class="contacts__content content">
+								<h2 class="title-big contacts__title" data-enLang="Contact me">Свяжитесь со мной</h2>
+								<p class="subtitle contacts__subtitle" data-enLang="Fill out the short form and send it to me, I'll get back to you shortly!">Заполни короткую форму и отправь ее мне, я свяжусь с тобой в ближайшее время!</p>
 
-						<form class="contacts__form">
-							<input class="contacts__input" type="text" placeholder="Твое имя и фамилия" />
-							<input class="contacts__input" type="email" placeholder="Твоя почта" />
-							<textarea class="contacts__textarea" placeholder="Предложение либо вопрос"></textarea>
+								<form class="contacts__form">
+									<input class="contacts__input" name="name" type="text" placeholder="Твое имя и фамилия" data-enLang="Your full name"/>
+									<input class="contacts__input" name="email" type="email" placeholder="Твоя почта" data-enLang="Your email"/>
+									<textarea class="contacts__textarea" name="message" placeholder="Предложение либо вопрос" data-enLang="Suggestion or question"></textarea>
 
-							<label class="contacts__label">
-								<input class="contacts__checkbox" type="checkbox" />
-								<span class="contacts__checkbox-span"></span>
-								<span>
-									Я соглашаюсь на обработку моих
-									<span class="highliter">Персональных Данных</span>
-								</span>
-							</label>
-
-							<div class="contacts__btns">
-								<button class="btn contacts__btn" type="submit">Отправить заявку</button>
-								<a class="btn btn--transparent contacts__btn" href="#intro"> Вернуться в начало </a>
+									<div class="contacts__btns">
+										<button class="btn contacts__btn" type="submit" data-enLang="Send">Отправить заявку</button>
+										<a class="btn btn--transparent contacts__btn" data-enLang="To the top" href="#intro"> Вернуться в начало </a>
+									</div>
+								</form>
 							</div>
-						</form>
+
+						</div>
 					</div>
 				</section>
 			</main>
